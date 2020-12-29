@@ -6,10 +6,10 @@ This repository is the implementation of ([Split-And-ReCombine network (SARC)](h
 
 ### Running the code
 For three datasets:
-- Movie
+- Music
   ```
   $ cd src
-  $ python preprocess.py --dataset movie
+  $ python preprocess.py --dataset music
   $ python main.py
   ```
 - Book
@@ -19,20 +19,20 @@ For three datasets:
     ```
   - open `main.py` file;
     
-  - comment the code blocks of parameter settings for MovieLens-1M;
+  - comment the code blocks of parameter settings for Last.FM;
     
   - uncomment the code blocks of parameter settings for Book-Crossing;
     
   - ```
     $ python main.py
     ```
-- Music
+- Movie
   - ```
     $ cd src
-    $ python preprocess.py --dataset music
+    $ python preprocess.py --dataset movie
     ```
   - open `main.py` file;
     
-  - comment the code blocks of parameter settings for MovieLens-1M;
+  - comment the code blocks of parameter settings for Last.FM;
     
-  - uncomment the code blocks of parameter settings for Last.FM;
+  - uncomment the code blocks of parameter settings for Movielens-1M;
